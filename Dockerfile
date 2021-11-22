@@ -1,6 +1,5 @@
-FROM node:14
-
-# Setting working directory. All the path will be relative to WORKDIR
+FROM node
+# Setting working zdirectory. All the path will be relative to WORKDIR
 WORKDIR /usr/src/app
 
 # Install app dependencies
